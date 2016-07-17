@@ -26,25 +26,12 @@
 # Installation of zsh and oh-my-zsh
 
 echo "################################################################"
-echo "installing arc dark"
+echo "themes"
 echo "################################################################"
 
 packer gtk-theme-arc-git --noedit
 
 packer gtk-theme-arc-grey-git --noedit
-
-
-#zsh enhancements
-
-echo "################################################################"
-echo "installing super ultra flat numix remix"
-echo "################################################################"
-
-packer super ultra flat numix remix --noedit
-
-echo "################################################################"
-echo "installing blackbird"
-echo "################################################################"
 
 packer xfce-theme-blackbird --noedit
 

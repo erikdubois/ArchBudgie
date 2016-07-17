@@ -303,7 +303,7 @@ case $DISTRO in
 			echo "installing conky for this script to work"
 			echo "################################################################"
 
-		  	sudo packer conky-lua-nv --noedit
+		  	packer conky-lua-nv --noedit
 
 		  else
 		  	echo "Conky was installed. Proceeding..."
