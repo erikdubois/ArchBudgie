@@ -38,7 +38,13 @@
 
 #https://aur.archlinux.org/packages/cnijfilter2-mg7700/
 
-packer cnijfilter2-mg7700
+packer cnijfilter2-mg7700  --noedit
+
+packer scangearmp2-mg7700 --noedit
+
+sudo pacman -S sane simple-scan xsane --noconfirm
+
+#
 
 # go to printer 
 # find on ip adres
