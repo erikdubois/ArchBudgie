@@ -123,8 +123,6 @@ CTRL = X , yes and enter
 
 pacman -S bash-completion
 
-pacman -S terminator
-
 if no internet - again
 
 sudo systemctl enable NetworkManager
@@ -212,18 +210,10 @@ Go inside the folder and run every program in there
 
 run forest run
 
-Keyboard shortcuts to stop music and skip to next can be done with
-
-playerctl play-pause
-
-playerctl next
-
-playerctl previous
-
-playerctl stop
 
 
-printscreen
+
+printscreen keyboard shortcut
 
 scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
@@ -235,20 +225,17 @@ sudo pacman -S nemo
 
 # Other desktop environments
 
-sudo pacman -S budgie-desktop
+sudo pacman -S budgie-desktop gnome
 
 sudo pacman -S cinnamon
 
-sudo pacman -S deepin
-
-sudo pacman -S deepin-extra
+sudo pacman -S deepin  deepin-extra
 
 sudo pacman -S enlightenment
 
 sudo pacman -S gnome gnome-extra
 
 sudo pacman -S gnome-flashback
-
 
 sudo pacman -S lxde-common lxsession openbox obconf
 
