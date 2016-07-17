@@ -34,11 +34,13 @@
 #
 
 
-wget http://gdlp01.c-wss.com/gds/0/0100006900/01/cnijfilter2-source-5.20-1.tar.gz -O /tmp/cnijfilter2-source-5.20-1.tar.gz
+#wget http://gdlp01.c-wss.com/gds/0/0100006900/01/cnijfilter2-source-5.20-1.tar.gz -O /tmp/cnijfilter2-source-5.20-1.tar.gz
 
-cd /tmp
-tar -zxvf /tmp/cnijfilter2-source-5.20-1.tar.gz -C /tmp
-cd /tmp/cnijfilter2-source-5.20-1/cnijbe2
-./autogen.sh
-make 
-sudo make install
+#https://aur.archlinux.org/packages/cnijfilter2-mg7700/
+
+packer cnijfilter2-mg7700
+
+# go to printer 
+# find on ip adres
+# LPT1
+# select canon drivers
