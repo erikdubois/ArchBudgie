@@ -66,6 +66,7 @@ sudo pacman -S meld --noconfirm
 
 sudo pacman -S gimp --noconfirm
 sudo pacman -S inkscape --noconfirm
+sudo pacman -S tumbler --noconfirm
 
 ######## I N T E R N E T       #########
 
