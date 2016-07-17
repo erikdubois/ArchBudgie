@@ -250,6 +250,9 @@ echo "################################################################"
 # https://launchpad.net/grub-customizer
 # packer grub-customizer
 
+# to get back a transparent background
+packer gnome-terminal-kali
+
 
 
         # N E T W O R K 
