@@ -159,7 +159,7 @@ sudo pacman -S xf86-video-nouveau
 # FASE 4 Desktop environment
 
 
-sudo pacman -S budgie-desktop
+sudo pacman -S budgie-desktop gnome
 
 
 # FASE 5 Display manager
