@@ -1,10 +1,10 @@
-# ArchXfce4
+# ArchBudgie
 
 psss.... Just for me.
 
 # FASE 1
 
-Steps to take when installing XFCE4 from scratch
+Steps to take when installing Budgie from scratch
 
 Pop in the latest arch usb
 
@@ -150,7 +150,7 @@ sudo pacman -S xf86-video-nouveau
 # FASE 4 Desktop environment
 
 
-sudo pacman -S xfce4 xfce4-goodies xfce4-whiskermenu-plugin
+sudo pacman -S budgie-desktop
 
 
 # FASE 5 Display manager
@@ -175,7 +175,7 @@ export EDITOR=nano
 
 sudo pacman -S firefox
 
-Surf to https://github.com/erikdubois/ArchXfce4
+Surf to https://github.com/erikdubois/ArchBudgie
 
 If you download the zip
 
@@ -188,7 +188,7 @@ If you work with git
 
 sudo pacman -S git
 
-git clone https://github.com/erikdubois/ArchXfce4
+git clone https://github.com/erikdubois/ArchBudgie
 
 
 Go inside the folder and run every program in there
