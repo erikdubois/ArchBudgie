@@ -182,11 +182,11 @@ sudo pacman -S catfish --noconfirm
 
         # F O N T S #
 
-#sudo pacman -S ttf-ubuntu-font-family --noconfirm
+sudo pacman -S ttf-ubuntu-font-family --noconfirm
 
 
-#sudo pacman -S ttf-droid --noconfirm --noconfirm
-#sudo pacman -S ttf-inconsolata --noconfirm
+sudo pacman -S ttf-droid --noconfirm --noconfirm
+sudo pacman -S ttf-inconsolata --noconfirm
 #sudo pacman -S ttf-google-fonts  --noconfirm
 
         # U T I L I T I E S #
