@@ -157,7 +157,9 @@ sudo pacman -S xf86-video-nouveau
 # FASE 4 Desktop environment
 
 
-sudo pacman -S budgie-desktop gnome
+sudo pacman -S budgie-desktop gnome 
+
+may be also gnome-extra?
 
 
 # FASE 5 Display manager
@@ -218,33 +220,8 @@ printscreen keyboard shortcut
 scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 
-I use nemo to have an easy way to search graphical items
-
-sudo pacman -S nemo
 
 
-# Other desktop environments
-
-sudo pacman -S budgie-desktop gnome
-
-sudo pacman -S cinnamon
-
-sudo pacman -S deepin  deepin-extra
-
-sudo pacman -S enlightenment
-
-sudo pacman -S gnome gnome-extra
-
-sudo pacman -S gnome-flashback
-
-sudo pacman -S lxde-common lxsession openbox obconf
-
-sudo pacman -S lxqt
-
-sudo pacman -S mate mate-extra
-
-
-gsettings set org.cinnamon.desktop.default-applications.terminal exec terminator
 
 again this is personal ssssshhhh
 
