@@ -49,8 +49,8 @@ CTRL + X , yes, enter
 
 locale-gen
 
-	echo LANG=en_US.UTF-8 > /etc/locale.conf
-	export LANG=en_US.UTF-8
+echo LANG=en_US.UTF-8 > /etc/locale.conf
+export LANG=en_US.UTF-8
 
 nano /etc/vconsole.conf
 
