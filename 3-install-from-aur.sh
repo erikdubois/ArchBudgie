@@ -151,7 +151,7 @@ packer numix-circle-icon-theme  --noedit
 #packer vertex-themes-git --noedit
 #packer numix-themes-archblue --noedit
 #packer ceti-3.14-theme --noedit
-#packer zoncolor-themes-pack --no-edit
+#packer zoncolor-themes-pack --noedit
 
 # gtk theme
 # http://gnome-look.org/content/show.php/Just-Dark?content=168025
@@ -251,8 +251,9 @@ echo "################################################################"
 # packer grub-customizer
 
 # to get back a transparent background
-packer gnome-terminal-kali
+packer gnome-terminal-kali --noedit
 
+packer pamac --noedit
 
 
         # N E T W O R K 
