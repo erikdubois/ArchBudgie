@@ -98,7 +98,7 @@ git config --global push.default simple
 
 
 
-git remote add origin https://github.com/erikdubois/ArchBudgie.git
+#git remote add origin https://github.com/erikdubois/ArchBudgie.git
 
 
 echo " ALL  D O N E !"
