@@ -241,7 +241,7 @@ echo "################################################################"
 # activate multilib in the pacman.conf
 # packer teamviewer  --noedit
 # packer usb-creator --noedit
-# packer imagewriter --noedit
+packer imagewriter --noedit
 # packer isousb --noedit
 # if using pamac you need some kind of policy kit to grant permission for updating
 # sudo pacman -S polkit
@@ -253,7 +253,7 @@ echo "################################################################"
 # to get back a transparent background
 packer gnome-terminal-kali --noedit
 
-packer pamac --noedit
+#packer pamac --noedit
 
 
         # N E T W O R K 
