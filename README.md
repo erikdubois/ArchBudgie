@@ -2,6 +2,11 @@
 
 Installing notes for my personal use
 
+
+
+
+Sardi v 7.2.1
+
 ![Screenshots](http://i.imgur.com/3teJbPR.jpg)
 
 # FASE 1
