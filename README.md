@@ -1,6 +1,8 @@
 # ArchBudgie
 
-psss.... Just for me.
+Installing notes for my personal use
+
+![Screenshots](http://i.imgur.com/3teJbPR.jpg)
 
 # FASE 1
 
