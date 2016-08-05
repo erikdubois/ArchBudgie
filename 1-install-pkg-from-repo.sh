@@ -90,6 +90,7 @@ sudo pacman -S shotwell --noconfirm
 ######## O F F I C E           #########
 
 sudo pacman -S geary --noconfirm
+sudo pacman -S evolution --noconfirm
 
 
 
