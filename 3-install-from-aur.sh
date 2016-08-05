@@ -140,7 +140,7 @@ echo "################################################################"
 #git clone https://github.com/horst3180/Vertex-Icons ~/.icons/Vertex-Icons
 
 
-packer numix-circle-icon-theme  --noedit
+#packer numix-circle-icon-theme  --noedit
 
 
         # T H E M E S #
@@ -241,7 +241,7 @@ echo "################################################################"
 # activate multilib in the pacman.conf
 # packer teamviewer  --noedit
 # packer usb-creator --noedit
-packer imagewriter --noedit
+# packer imagewriter --noedit
 # packer isousb --noedit
 # if using pamac you need some kind of policy kit to grant permission for updating
 # sudo pacman -S polkit
