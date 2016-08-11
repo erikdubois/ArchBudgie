@@ -2,15 +2,23 @@
 
 Installing notes for my personal use
 
+Sardi v 7.3.4 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
+![Screenshots](http://i.imgur.com/q9tLrHK.jpg)
+
+
+
 Sardi v 7.2.9 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
-
 ![Screenshots](http://i.imgur.com/kFWc9Bb.jpg)
+
 
 
 Sardi v 7.2.1 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 ![Screenshots](http://i.imgur.com/3teJbPR.jpg)
+
+
 
 # FASE 1
 
