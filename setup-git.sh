@@ -1,30 +1,25 @@
 #!/bin/bash
+#======================================================================================
 #
-#                                       
-# MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
-# MMm----::-://////////////oymNMd+`     
-# MMd      /++                -sNMd:    
-# MMNso/`  dMM    `.::-. .-::.` .hMN:   
-# ddddMMh  dMM   :hNMNMNhNMNMNh: `NMm   
-#     NMm  dMM  .NMN/-+MMM+-/NMN` dMM   
-#     NMm  dMM  -MMm  `MMM   dMM. dMM   
-#     NMm  dMM  -MMm  `MMM   dMM. dMM   
-#     NMm  dMM  .mmd  `mmm   yMM. dMM   
-#     NMm  dMM`  ..`   ...   ydm. dMM   
-#     hMM- +MMd/-------...-:sdds  dMM   
-#     -NMm- :hNMNNNmdddddddddy/`  dMM   
-#      -dMNs-``-::::-------.``    dMM   
-#       `/dMNmy+/:-------------:/yMMM  
-#          ./ydNMMMMMMMMMMMMMMMMMMMMM  
-#             \.MMMMMMMMMMMMMMMMMMM    
-#                                      
-#
-#
-##################################################################################################################
-#
-# Current project : Ultimate-Linux-Mint-18
-#
-# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
+#                  -`
+#                  .o+`                 
+#                 `ooo/                  
+#                `+oooo:                 M  a  d  e    on 
+#               `+oooooo:               
+#               -+oooooo+:              
+#             `/:-:++oooo+:             
+#            `/++++/+++++++:                      A  R  C  H
+#           `/++++++++++++++:           
+#          `/+++ooooooooooooo/`         
+#         ./ooosssso++osssssso+`        
+#        .oossssso-````/ossssss+`       
+#       -osssssso.      :ssssssso.          F  o   r   
+#      :osssssss/        osssso+++.     
+#     /ossssssss/        +ssssooo/-     
+#   `/ossssso+/:-        -:/+osssso+-                           A   R   C   H
+#  `+sso+:-`                 `.-/+oso: 
+# `++:.                           `-/+/
+# .`                                 `/
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -98,7 +93,7 @@ git config --global push.default simple
 
 
 
-git remote add origin https://github.com/erikdubois/ArchBudgie.git
+#git remote add origin https://github.com/erikdubois/ArchBudgie.git
 
 
 echo " ALL  D O N E !"
