@@ -51,6 +51,7 @@
 # packer acroread --noedit
 # using evince
 
+packer radiotray --noedit
 
 # calculator
 # sudo pacman -S gnome-calculator
