@@ -241,7 +241,7 @@ scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 
 
-again this is personal ssssshhhh
+Installing notes for my personal use
 
 
 
