@@ -4,7 +4,7 @@ Installing notes for my personal use
 
 Sardi v 7.5.0 at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
-![Screenshots]()
+![Screenshots](http://i.imgur.com/KjZPupw.jpg)
 
 
 Sardi v 7.4.3 at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
