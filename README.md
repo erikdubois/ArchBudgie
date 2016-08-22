@@ -2,7 +2,7 @@
 
 Installing notes for my personal use
 
-Super Ultra Flat Numix Remix Breeze Dark at AUR and [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
+Super Ultra Flat Numix Remix Breeze Dark v 4.7.0 at AUR and [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
 
 ![Screenshots](http://i.imgur.com/ZC5xpeL.jpg)
 
