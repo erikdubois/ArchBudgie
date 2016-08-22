@@ -2,6 +2,11 @@
 
 Installing notes for my personal use
 
+Super Ultra Flat Numix Remix Breeze Dark at AUR and [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
+
+![Screenshots](http://i.imgur.com/ZC5xpeL.jpg)
+
+
 Sardi v 7.5.0 at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 ![Screenshots](http://i.imgur.com/KjZPupw.jpg)
