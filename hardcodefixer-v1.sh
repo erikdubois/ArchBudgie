@@ -1,68 +1,13 @@
 #!/bin/bash
-#======================================================================================
 #
-#                  -`
-#                  .o+`                 
-#                 `ooo/                  
-#                `+oooo:                 M  a  d  e    on 
-#               `+oooooo:               
-#               -+oooooo+:              
-#             `/:-:++oooo+:             
-#            `/++++/+++++++:                      A  R  C  H
-#           `/++++++++++++++:           
-#          `/+++ooooooooooooo/`         
-#         ./ooosssso++osssssso+`        
-#        .oossssso-````/ossssss+`       
-#       -osssssso.      :ssssssso.          F  o   r   
-#      :osssssss/        osssso+++.     
-#     /ossssssss/        +ssssooo/-     
-#   `/ossssso+/:-        -:/+osssso+-                           A   R   C   H
-#  `+sso+:-`                 `.-/+oso: 
-# `++:.                           `-/+/
-# .`                                 `/
-#
-#======================================================================================
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
-# 
-# More from Erik Dubois
-#
-# Aurora Conky
-# at http://sourceforge.net/projects/auroraconkytheme/
-# Explanation on the use of this theme can be found at 
-# http://erikdubois.be/category/linux/aurora-conky/
-# 
-# Aureola Conky
-# Collections of nice conky's with lua syntax
-# https://github.com/erikdubois/Aureola
-#
-# Sardi icons
-# Many different styles of icons from colourfull, monochrome, white, circle
-# https://sourceforge.net/projects/sardi/
-#
-# Super Ultra Flat Numix Remix
-# Colourfull and playfull icons
-# https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
-#
-# Check out the github - many more scripts for automatic installation of Linux Systems.
-#
-#
-#
-#
-#
-##################################################################################################################
-# If the option -y has been added. It will autoinstall all. Omit if you do not want that.
 ##################################################################################################################
 #
-#
-#
-#
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
@@ -127,6 +72,8 @@ echo "Checking and changing all hardcoded icons"
 echo "#################################################"
 
 sudo /tmp/hardcode-fixer/fix.sh
+
+rm -rf /tmp/hardcode-fixer
 
 echo
 echo
