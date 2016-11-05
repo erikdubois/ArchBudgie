@@ -2,6 +2,11 @@
 
 Installing notes for my personal use
 
+Sardi Mono Papirus Dark with Arc Dark Grey and Sardi v7.9.2
+
+![Screenshots](http://i.imgur.com/ZcLBe0z.png)
+
+
 Super Ultra Flat Numix Remix Breeze Dark v 4.7.0 at AUR and [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
 
 ![Screenshots](http://i.imgur.com/ZC5xpeL.jpg)
