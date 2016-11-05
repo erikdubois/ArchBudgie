@@ -8,7 +8,7 @@ http://erikdubois.be/category/linux/solus/
 
 Then came back to Arch to tweak the settings.
 
-Sardi Mono Papirus Dark with Arc Dark Grey and Sardi v7.9.2
+Sardi Mono Papirus Dark with Arc Dark Grey and Sardi v7.9.2 at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 ![Screenshots](http://i.imgur.com/ZcLBe0z.png)
 
