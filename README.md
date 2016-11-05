@@ -2,7 +2,7 @@
 
 Installing notes for my personal use
 
-Complete a complete tutorial on Solus Budgie
+Completed a tutorial on Solus Budgie at
 
 http://erikdubois.be/category/linux/solus/
 
