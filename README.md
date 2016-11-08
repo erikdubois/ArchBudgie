@@ -261,8 +261,9 @@ scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 ###Setting nano instead of vi
 
-export VISUAL=nano
-export EDITOR=nano
+	export VISUAL=nano
+
+	export EDITOR=nano
 
 
 
