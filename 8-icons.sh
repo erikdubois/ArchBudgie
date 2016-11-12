@@ -36,7 +36,7 @@ echo "################################################################"
 echo "installing super ultra flat numix remix"
 echo "################################################################"
 
-packer super ultra flat numix remix --noedit
+packer surfn --noedit
 
 
 echo "################################################################"
