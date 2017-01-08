@@ -14,19 +14,19 @@
 
 
 
-rm -rf /tmp/Sardi-Extra
-git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
-find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
+rm -rf /tmp/Sardi-Vintage
+git clone https://github.com/erikdubois/Sardi-Vintage /tmp/Sardi-Vintage
+find /tmp/Sardi-Vintage -maxdepth 1 -type f -exec rm -rf '{}' \;
 
 # if there is no hidden folder then make one
 [ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-cp -r /tmp/Sardi-Extra/* ~/.icons/
-rm -rf /tmp/Sardi-Extra
+cp -r /tmp/Sardi-Vintage/* ~/.icons/
+rm -rf /tmp/Sardi-Vintage
 
 
 
 
 echo "################################################################"
-echo "###################    icons sardi extra done  #################"
+echo "###################    icons sardi Vintage done  #################"
 echo "################################################################"

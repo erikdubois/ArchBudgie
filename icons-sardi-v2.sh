@@ -13,20 +13,20 @@
 
 
 
-
-rm -rf /tmp/Sardi-Extra
-git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
-find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
+rm -rf /tmp/sardi
+wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
+mkdir /tmp/sardi
+tar -zxf /tmp/sardi.tar.gz -C /tmp/sardi
+rm /tmp/sardi.tar.gz
 
 # if there is no hidden folder then make one
 [ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
-cp -r /tmp/Sardi-Extra/* ~/.icons/
-rm -rf /tmp/Sardi-Extra
-
+cp -rf /tmp/sardi/* ~/.icons/
+rm -rf /tmp/sardi
 
 
 
 echo "################################################################"
-echo "###################    icons sardi extra done  #################"
+echo "###################    icons sardi done   ######################"
 echo "################################################################"
