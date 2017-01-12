@@ -271,6 +271,16 @@ scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 Installing notes for my personal use
 
 
+# Youtube sources
+
+Showing all sardi and surfn icons on Archlinux Budgie
+
+
+https://www.youtube.com/watch?v=nrISx6JX258
+
+
+
+
 
 # F  A  Q
 --------------------
