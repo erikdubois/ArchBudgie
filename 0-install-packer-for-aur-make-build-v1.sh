@@ -49,7 +49,7 @@
 # normally not needed
 # sudo pacman -S base-devel fakeroot jshon expac git wget --noconfirm
 
-#depends for packer
+#dependencies for packer
 
 sudo pacman -S grep sed bash curl pacman jshon expac
 
