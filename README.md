@@ -1,13 +1,5 @@
 # ArchBudgie
 
-Installing notes for my personal use
-
-Completed a tutorial on Solus Budgie at
-
-http://erikdubois.be/category/linux/solus/
-
-Then came back to Arch to tweak the settings.
-
 Sardi v9.1.1 Sardi Mono Numix Colora and Aureola Acros v1.7.8
 
 ![Screenshots](http://i.imgur.com/9wIQ90c.jpg)
@@ -18,7 +10,7 @@ Sardi Mono Papirus Dark with Arc Dark Grey and Sardi v7.9.2 at AUR and [Sourcefo
 ![Screenshots](http://i.imgur.com/ZcLBe0z.png)
 
 
-Super Ultra Flat Numix Remix Breeze Dark v 4.7.0 at AUR and [Github](https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix)
+Surfn v 4.7.0 at AUR and [Github](https://github.com/erikdubois/Surfn)
 
 ![Screenshots](http://i.imgur.com/ZC5xpeL.jpg)
 
