@@ -187,6 +187,11 @@ exit
 Login with new account i.e. here erik and password
 
 
+From this point on you can also run this script
+
+
+	_0-install-desktop-environment.sh
+
 
 sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm
 
