@@ -1,5 +1,11 @@
 # ArchBudgie
 
+A collection of scripts to easily install all software, icons, themes, cursors, ... automatically.
+
+
+Surfn icons at AUR and [Github](https://github.com/erikdubois/Surfn)
+Sardi icons at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
 Sardi v9.1.1 Sardi Mono Numix Colora and Aureola Acros v1.7.8
 
 ![Screenshots](http://i.imgur.com/9wIQ90c.jpg)
