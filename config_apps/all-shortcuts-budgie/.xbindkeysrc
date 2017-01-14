@@ -45,7 +45,7 @@ keystate_numlock = enable
 #xbindkeys -k
 
 "gnome-terminal"
-Control+Alt+Mod2 + T
+Control+Alt+Mod2 + t
 
 
 "gnome-system-monitor"

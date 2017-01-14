@@ -8,6 +8,11 @@ http://erikdubois.be/category/linux/solus/
 
 Then came back to Arch to tweak the settings.
 
+Sardi v9.1.1 Sardi Mono Numix Colora and Aureola Acros v1.7.8
+
+![Screenshots](http://i.imgur.com/9wIQ90c.jpg)
+
+
 Sardi Mono Papirus Dark with Arc Dark Grey and Sardi v7.9.2 at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 ![Screenshots](http://i.imgur.com/ZcLBe0z.png)
