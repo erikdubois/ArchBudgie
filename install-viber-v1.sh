@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="viber"
+command="viber"
 
 
 if which pacaur > /dev/null; then

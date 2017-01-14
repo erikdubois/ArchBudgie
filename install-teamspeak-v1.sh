@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="teamspeak3"
+command="teamspeak3"
 
 
 if which pacaur > /dev/null; then

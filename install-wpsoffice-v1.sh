@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="wps-office"
+command="wps-office"
 
 
 if which pacaur > /dev/null; then

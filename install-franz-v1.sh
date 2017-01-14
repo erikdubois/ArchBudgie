@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="franz-bin"
+command="franz"
 
 
 if which pacaur > /dev/null; then

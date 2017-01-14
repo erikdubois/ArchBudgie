@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="telegram-desktop-bin"
+command="telegram"
 
 
 if which pacaur > /dev/null; then

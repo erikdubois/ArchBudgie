@@ -12,9 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
-
+program="cool-retro-term"
+command="cool retro term"
 
 if which pacaur > /dev/null; then
 
@@ -32,6 +31,7 @@ elif which yaourt > /dev/null; then
 	yaourt -S --noconfirm $program
 		  	
 fi
+
 
 
 

@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="pixeluvo"
+command="pixeluvo"
 
 
 if which pacaur > /dev/null; then

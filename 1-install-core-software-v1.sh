@@ -12,11 +12,11 @@
 ##################################################################################################################
 
 #software from 'normal' repositories
-sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 baobab catfish clementine curl darktable dconf-editor
-sudo pacman -S --noconfirm --needed dmidecode evince evolution filezilla geary gimp git glances gparted gpick grsync
-sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop inkscape inxi lm_sensors meld mlocate
-sudo pacman -S --noconfirm --needed numlockx openshot pinta plank sane screenfetch scrot shotwell 
-sudo pacman -S --noconfirm --needed shutter simplescan simplescreenrecorder sysstat 
+sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 baobab bleachbit catfish clementine curl darktable dconf-editor
+sudo pacman -S --noconfirm --needed dmidecode evince evolution filezilla galculator geary gimp git glances gparted gpick grsync
+sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop inkscape inxi lm_sensors meld mlocate mpv
+sudo pacman -S --noconfirm --needed numlockx openshot opera pinta plank redshift sane screenfetch scrot shotwell 
+sudo pacman -S --noconfirm --needed shutter simplescan simplescreenrecorder smplayer sysstat 
 sudo pacman -S --noconfirm --needed terminator thunar variety vlc vnstat wget unclutter  
 
 

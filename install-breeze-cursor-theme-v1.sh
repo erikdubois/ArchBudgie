@@ -13,6 +13,7 @@
 
 
 program="breeze-snow-cursor-theme"
+command="breeze-snow-cursor-theme"
 
 
 if which pacaur > /dev/null; then
@@ -28,18 +29,22 @@ elif which packer > /dev/null; then
 elif which yaourt > /dev/null; then
 
 	echo "Installing with yaourt"
-	yaourt -S --noconfirm --noedit  $program
+	yaourt -S --noconfirm $program
 		  	
 fi
 
 
 
+if which $command > /dev/null; then
+	
+	echo "################################################################"
+	echo "################################## "$command" has been installed"
+	echo "################################################################"
 
+	else
 
-##################################################################################################################
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! "$command" has NOT been installed"
+	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-echo "################################################################"
-echo "########  breeze snow cursor installed    ######################"
-echo "################################################################"
-
-
+fi

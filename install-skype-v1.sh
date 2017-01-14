@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="skypeforlinux-bin"
+command="skype"
 
 
 if which pacaur > /dev/null; then

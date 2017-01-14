@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="slack-desktop"
+command="slack"
 
 
 if which pacaur > /dev/null; then

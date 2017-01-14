@@ -12,8 +12,15 @@
 ##################################################################################################################
 
 
-program="radiotray"
-command="radiotray"
+program="google-earth"
+command="google-earth"
+
+echo "This application requires software from "
+echo "[multilib]"
+echo "Include = /etc/pacman.d/mirrorlist"
+
+echo "Edit the pacman.conf file in /etc and make sure the lines are not omitted"
+echo "Run pacman -Syu again"
 
 
 if which pacaur > /dev/null; then
