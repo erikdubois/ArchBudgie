@@ -11,14 +11,26 @@
 #
 ##################################################################################################################
 
-command="packer"
 
-echo "################################################################"
-echo "packer will be installed now"
-echo "################################################################"
+program="paper-icon-theme-git"
+command="paper-icon-theme-git"
 
-yaourt --noconfirm packer 
+if which pacaur > /dev/null; then
 
+	echo "Installing with pacaur"
+	pacaur -S --noconfirm --noedit  $program
+
+elif which packer > /dev/null; then
+
+	echo "Installing with packer"
+	packer -S --noconfirm --noedit  $program 	
+
+elif which yaourt > /dev/null; then
+
+	echo "Installing with yaourt"
+	yaourt -S --noconfirm $program
+		  	
+fi
 
 
 if which $command > /dev/null; then

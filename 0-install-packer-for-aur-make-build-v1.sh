@@ -1,37 +1,13 @@
 #!/bin/bash
 #======================================================================================
-#
-#                  -`
-#                  .o+`                 
-#                 `ooo/                  
-#                `+oooo:                 M  a  d  e    on 
-#               `+oooooo:               
-#               -+oooooo+:              
-#             `/:-:++oooo+:             
-#            `/++++/+++++++:                      A  R  C  H
-#           `/++++++++++++++:           
-#          `/+++ooooooooooooo/`         
-#         ./ooosssso++osssssso+`        
-#        .oossssso-````/ossssss+`       
-#       -osssssso.      :ssssssso.          F  o   r   
-#      :osssssss/        osssso+++.     
-#     /ossssssss/        +ssssooo/-     
-#   `/ossssso+/:-        -:/+osssso+-                           A   R   C   H
-#  `+sso+:-`                 `.-/+oso: 
-# `++:.                           `-/+/
-# .`                                 `/
-#
 #======================================================================================
-#
-#======================================================================================
-#                               Archlinux and XFCE4
 # 
 # Author  : Erik Dubois at http://www.erikdubois.be
 # License : Distributed under the terms of GNU GPL version 2 or later
 # 
 # AS ALLWAYS, KNOW WHAT YOU ARE DOING.
 #======================================================================================
-#
+
 
 
 ########################################
@@ -51,7 +27,7 @@
 
 #dependencies for packer
 
-sudo pacman -S grep sed bash curl pacman jshon expac
+sudo pacman -S --noconfirm --needed grep sed bash curl pacman jshon expac
 
 rm -rf /tmp/packer
 
@@ -70,6 +46,6 @@ makepkg -i /tmp/packer
 #sudo pacman -U /tmp/packer/packer-*.pkg.tar.xz
 
 echo "########################################"
-echo "########    T H E   E N D      #########"
+echo "########    packer installed   #########"
 echo "########################################"
 
