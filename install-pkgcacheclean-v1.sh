@@ -12,8 +12,8 @@
 ##################################################################################################################
 
 
-program="gradio"
-command="gradio"
+program="pkgcacheclean"
+command="pkgcacheclean"
 
 
 if which pacaur > /dev/null; then
@@ -32,6 +32,7 @@ elif which yaourt > /dev/null; then
 	yaourt -S --noconfirm $program
 		  	
 fi
+
 
 
 
