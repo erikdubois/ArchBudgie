@@ -19,7 +19,7 @@ sh install-breeze-cursor-theme-v1.sh
 
 # Conky Aureola
 
-sh conky-aureola-v2.sh
+sh conky-aureola-v3.sh
 
 ###############################################################################################
 
