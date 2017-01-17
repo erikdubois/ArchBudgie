@@ -27,7 +27,7 @@
 
 #dependencies for packer
 
-sudo pacman -S --noconfirm --needed grep sed bash curl pacman jshon expac
+sudo pacman -S --noconfirm --needed grep sed bash curl pacman jshon expac wget
 
 rm -rf /tmp/packer
 
