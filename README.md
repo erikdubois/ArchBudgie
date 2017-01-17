@@ -193,9 +193,23 @@ We are still in the terminal and type
 
 Now it is up to you which scripts you like to run. You can read the contents in the terminal with the 'cat' command.
 
-I will run the following scripts
+I will run the following script
 
 	_0-install-desktop-environment-vx.sh (xorg and budgie)
+
+You will see that you will get a graphical interface. That is the gdm display manager.
+Login but make sure that you use budgie as default desktop with the 'gauge' symbol.
+This is the standard screen without any of desktop improvements yet.
+
+
+Since I have an azerty keyboard, I go first to settings, Regions and Language and add the Belgian keyboard.
+
+Since there is no keyboard shortcut for terminal yet, I go to settins, keyboard and make a shortcut with CTRL+ALT+T to gnome-terminal. We will later replace it with a more beautiful transparent gnome-terminal.
+
+
+Continue to run the rest of the scripts via terminal.
+
+
 	_0-install-fastest-mirrors-v1.sh   (check the countries)
 	0-install-packer-for-aur-make-build-vx.sh (AUR software)
 	1-install-core-software-vx.sh
