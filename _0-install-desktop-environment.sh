@@ -13,15 +13,15 @@
 
 echo " Xserver setup"
 
-sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm --noconfirm
-sudo pacman -S x86-video-nouveau --noconfirm
+sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm --noconfirm --needed
+sudo pacman -S x86-video-nouveau --noconfirm --needed
 
 echo "Desktop Environment"
 
-sudo pacman -S budgie-desktop gnome --noconfirm
+sudo pacman -S budgie-desktop gnome --noconfirm --needed
 
 echo "Display manager"
 
-sudo pacman -S gdm --noconfirm
+sudo pacman -S gdm --noconfirm --needed
 sudo systemctl enable gdm.service
 sudo systemctl start gdm.service
