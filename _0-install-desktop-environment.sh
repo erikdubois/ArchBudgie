@@ -22,6 +22,6 @@ sudo pacman -S budgie-desktop gnome --noconfirm
 
 echo "Display manager"
 
-sudo pacman -S gdm
+sudo pacman -S gdm --noconfirm
 sudo systemctl enable gdm.service
 sudo systemctl start gdm.service
