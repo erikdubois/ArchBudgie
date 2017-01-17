@@ -73,8 +73,9 @@ sh install-sublime-text-v1.sh
 
 # Teamviewer
 
-sh install-teamviewer-v1.sh
-
+#sh install-teamviewer-v1.sh
+#special actions are needed
+#32 repositories
 #############################################################################################
 
 # Visual studio code
