@@ -71,9 +71,6 @@ swapon /dev/sda2
 
 mount /dev/sda1 /mnt
 
-pacman -Sy
-
-
 pacstrap -i /mnt base base-devel
 
 genfstab -U /mnt >> /mnt/etc/fstab
