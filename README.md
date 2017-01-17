@@ -11,6 +11,8 @@ Sardi v9.1.1 Sardi Mono Numix Colora and Aureola Acros v1.7.8
 
 ![Screenshots](http://i.imgur.com/9wIQ90c.jpg)
 
+![Screenshots](http://i.imgur.com/pSsIB5T.jpg)
+
 
 Sardi Mono Papirus Dark with Arc Dark Grey and Sardi v7.9.2 at AUR and [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
