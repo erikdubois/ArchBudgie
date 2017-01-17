@@ -39,7 +39,7 @@ mv PKGBUILD\?h\=packer /tmp/packer/PKGBUILD
 
 cd /tmp/packer
 
-makepkg -i /tmp/packer
+makepkg -i --needed --noconfirm /tmp/packer
 
 
 
