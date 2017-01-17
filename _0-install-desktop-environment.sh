@@ -24,4 +24,4 @@ sudo systemctl start gdm.service
 
 echo "Desktop Environment"
 
-sudo pacman -S budgie-dekstop gnome --noconfirm
+sudo pacman -S budgie-desktop gnome --noconfirm
