@@ -204,7 +204,7 @@ I will run the following scripts
 	4-install-software-distro-specific-vx.sh
 	5-install-samba-vx.sh
 
-
+To be able to run the scripts you have to type "./" in front to these lines.
 
 
 #Remember
