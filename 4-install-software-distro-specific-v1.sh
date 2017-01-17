@@ -31,11 +31,6 @@ sudo pacman -S ttf-inconsolata --noconfirm --needed
 
 sudo pacman -S gnome-disk-utility  --noconfirm --needed
 
-#Printer
-
-sudo pacman -S cups cups-pdf ghostscript gsfonts libcups hplip system-config-printer --noconfirm --needed
-systemctl enable org.cups.cupsd.service
-systemctl start org.cups.cupsd.service
 
 #Network
 
@@ -47,13 +42,12 @@ sudo pacman -S networkmanager --noconfirm --needed
 # sudo pacman -S network-manager-applet --noconfirm
 
 
-echo "################################################################"
-echo "installing xbindkeys"
-echo "################################################################"
+#Printer
 
-sudo pacman -S xbindkeys ---noconfirm --needed
+sudo pacman -S cups cups-pdf ghostscript gsfonts libcups hplip system-config-printer --noconfirm --needed
+systemctl enable org.cups.cupsd.service
+systemctl start org.cups.cupsd.service
 
-echo "You need to put the config file in the root of your home folder"
 
 
 ###############################################################################################

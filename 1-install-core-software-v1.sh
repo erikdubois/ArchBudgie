@@ -14,7 +14,7 @@
 #software from 'normal' repositories
 sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 baobab bleachbit catfish clementine curl 
 sudo pacman -S --noconfirm --needed darktable dconf-editor dmidecode
-sudo pacman -S --noconfirm --needed evince evolution filezilla galculator geary gimp git glances gnome-tweak-tool
+sudo pacman -S --noconfirm --needed evince evolution filezilla firefox galculator geary gimp git glances gnome-tweak-tool
 sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop inkscape inxi
 sudo pacman -S --noconfirm --needed gparted gpick grsync lm_sensors
 sudo pacman -S --noconfirm --needed meld mlocate mpv numlockx 
