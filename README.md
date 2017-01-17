@@ -116,7 +116,7 @@ nano /etc/hosts
 	<ip-address> <hostname.domain.org> <hostname>
 	127.0.0.1 localhost.localdomain localhost ArchErik
 	::1   localhost.localdomain localhost ArchErik
-	touch /etc/udev/rules.d/80-net-setup-link.rules
+
 
 pacman -S networkmanager
 
