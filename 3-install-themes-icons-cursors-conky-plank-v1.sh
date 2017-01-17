@@ -76,6 +76,11 @@ sh install-ttf-carlito-v1.sh
 sh install-ttf-mac-fonts-v1.sh
 
 
+#Fonts
+
+sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
+sudo pacman -S ttf-droid --noconfirm --noconfirm --needed
+sudo pacman -S ttf-inconsolata --noconfirm --needed
 
 
 echo "################################################################"

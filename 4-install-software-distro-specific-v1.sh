@@ -21,11 +21,6 @@
 sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware pulseaudio pulseaudio-alsa pavucontrol  --noconfirm --needed
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly  gstreamer0.10-ffmpeg  --noconfirm --needed
 
-#Fonts
-
-sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
-sudo pacman -S ttf-droid --noconfirm --noconfirm --needed
-sudo pacman -S ttf-inconsolata --noconfirm --needed
 
 #Utilities
 
