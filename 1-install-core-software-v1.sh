@@ -12,16 +12,13 @@
 ##################################################################################################################
 
 #software from 'normal' repositories
-sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 baobab bleachbit catfish clementine curl 
-sudo pacman -S --noconfirm --needed darktable dconf-editor dmidecode
-sudo pacman -S --noconfirm --needed evince evolution filezilla firefox galculator geary gimp git glances gnome-tweak-tool
-sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop inkscape inxi
-sudo pacman -S --noconfirm --needed gparted gpick grsync lm_sensors
-sudo pacman -S --noconfirm --needed meld mlocate mpv numlockx 
-sudo pacman -S --noconfirm --needed openshot opera pinta plank redshift
-sudo pacman -S --noconfirm --needed sane screenfetch scrot shotwell shutter simple-scan simplescreenrecorder smplayer sysstat 
-sudo pacman -S --noconfirm --needed terminator thunar 
-sudo pacman -S --noconfirm --needed variety vlc vnstat wget unclutter  
+sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 baobab bleachbit catfish clementine clipit curl darktable dconf-editor
+sudo pacman -S --noconfirm --needed dmidecode evince evolution filezilla galculator geary gimp git glances gnome-disk-utility gnome-font-viewer gparted gpick grsync
+sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop inkscape inxi lm_sensors meld mlocate mpv
+sudo pacman -S --noconfirm --needed numlockx openshot opera pinta plank redshift ristretto sane screenfetch scrot shotwell 
+sudo pacman -S --noconfirm --needed shutter simple-scan simplescreenrecorder smplayer sysstat 
+sudo pacman -S --noconfirm --needed terminator thunar transmission transmission-gtk variety vlc vnstat wget unclutter  
+
 
 ###############################################################################################
 
