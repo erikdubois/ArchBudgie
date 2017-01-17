@@ -174,103 +174,54 @@ exit
 
 
 
-# FASE 3 Personal login and xserver
+# FASE 3 Desktop environment with software
 
 
 Login with new account i.e. here erik and password
 
 
-From this point on you can also run this script
+Rather then typing all commands one by one we can start using the power of the scripts that are on the github.
 
+We still need to install xorg-server, video driver, budgie-desktop, software, icons, themes, ...
 
-	_0-install-desktop-environment.sh
+We are still in the terminal and type
 
+	sudo pacman -S git
+	git clone https://www.github.com/erikdubois/ArchBudgie
+	cd ArchBudgie
+	ls-al
 
-sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm
+Now it is up to you which scripts you like to run. You can read the contents in the terminal with the 'cat' command.
 
+I will run the following scripts
 
-sudo pacman -S xf86-video-nouveau
-
-
-
-
-
-# FASE 4 Desktop environment
-
-
-sudo pacman -S budgie-desktop gnome 
-
-may be also gnome-extra?
-
-
-# FASE 5 Display manager
-
-easy switching between desktop environments and login
-
-sudo pacman -S gdm
-
-systemctl enable gdm.service
-
-systemctl start gdm.service
-
-
-change your keyboard to belgian in the settings
-
-
-
-# Fase 5 Getting our software
-
-export EDITOR=nano
-
-
-sudo pacman -S firefox
-
-Surf to https://github.com/erikdubois/ArchBudgie
-
-If you download the zip
-
-	
-sudo pacman -S file-roller
-
-Download and right mouse click to extract
-
-If you work with git
-
-sudo pacman -S git
-
-git clone https://github.com/erikdubois/ArchBudgie
-
-
-Go inside the folder and run every program in there
-
-./1 and press tab etcetera
-
-
-./2 ...
-
-
-./3 ...
-
-run forest run
+	_0-install-desktop-environment-vx.sh (xorg and budgie)
+	_0-install-fastest-mirrors-v1.sh   (check the countries)
+	0-install-packer-for-aur-make-build-vx.sh (AUR software)
+	1-install-core-software-vx.sh
+	2-install-extra-software-vx.sh
+	3-install-themes-icons-cursors-conky-plank-v.sh
+	4-install-software-distro-specific-vx.sh
+	5-install-samba-vx.sh
 
 
 
 
-printscreen keyboard shortcut
+#Remember
+
+
+##printscreen keyboard shortcut
 
 scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
 
 
-###Setting nano instead of vi
+##Setting nano instead of vi
 
 	export VISUAL=nano
 
 	export EDITOR=nano
 
 
-
-
-Installing notes for my personal use
 
 
 # Youtube sources

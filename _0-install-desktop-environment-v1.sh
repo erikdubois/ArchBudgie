@@ -19,6 +19,7 @@ sudo pacman -S x86-video-nouveau --noconfirm --needed
 echo "Desktop Environment"
 
 sudo pacman -S budgie-desktop gnome --noconfirm --needed
+#sudo pacman -S gnome-extra --noconfirm --needed
 
 echo "Display manager"
 
