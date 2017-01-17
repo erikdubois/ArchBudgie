@@ -204,7 +204,7 @@ This is the standard screen without any of desktop improvements yet.
 
 Since I have an azerty keyboard, I go first to settings, Regions and Language and add the Belgian keyboard.
 
-Since there is no keyboard shortcut for terminal yet, I go to settins, keyboard and make a shortcut with CTRL+ALT+T to gnome-terminal. We will later replace it with a more beautiful transparent gnome-terminal.
+Since there is no keyboard shortcut for terminal yet, I go to settings, keyboard and make a shortcut with CTRL+ALT+T to gnome-terminal. We will later replace it with a more beautiful transparent gnome-terminal.
 
 
 Continue to run the rest of the scripts via terminal.
