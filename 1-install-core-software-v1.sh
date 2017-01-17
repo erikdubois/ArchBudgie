@@ -17,7 +17,7 @@ sudo pacman -S --noconfirm --needed dmidecode evince evolution filezilla galcula
 sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop inkscape inxi lm_sensors meld mlocate mpv
 sudo pacman -S --noconfirm --needed numlockx openshot opera pinta plank redshift ristretto sane screenfetch scrot shotwell 
 sudo pacman -S --noconfirm --needed shutter simple-scan simplescreenrecorder smplayer sysstat 
-sudo pacman -S --noconfirm --needed terminator thunar transmission transmission-gtk variety vlc vnstat wget unclutter  
+sudo pacman -S --noconfirm --needed terminator thunar transmission-cli transmission-gtk variety vlc vnstat wget unclutter  
 
 
 ###############################################################################################
