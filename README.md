@@ -165,12 +165,6 @@ CTRL = X , yes and enter
 
 pacman -S bash-completion
 
-if no internet - again
-
-sudo systemctl enable NetworkManager
-
-sudo systemctl start NetworkManager
-
 
 exit
 
