@@ -1,64 +1,22 @@
 #!/bin/bash
-#======================================================================================
 #
-#                  -`
-#                  .o+`                 
-#                 `ooo/                  
-#                `+oooo:                 M  a  d  e    on 
-#               `+oooooo:               
-#               -+oooooo+:              
-#             `/:-:++oooo+:             
-#            `/++++/+++++++:                      A  R  C  H
-#           `/++++++++++++++:           
-#          `/+++ooooooooooooo/`         
-#         ./ooosssso++osssssso+`        
-#        .oossssso-````/ossssss+`       
-#       -osssssso.      :ssssssso.          F  o   r   
-#      :osssssss/        osssso+++.     
-#     /ossssssss/        +ssssooo/-     
-#   `/ossssso+/:-        -:/+osssso+-                           A   R   C   H
-#  `+sso+:-`                 `.-/+oso: 
-# `++:.                           `-/+/
-# .`                                 `/
+##################################################################################################################
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
+##################################################################################################################
 #
-#======================================================================================
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
-#======================================================================================
-#                               Archlinux and XFCE4
-# 
-# Author  : Erik Dubois at http://www.erikdubois.be
-# License : Distributed under the terms of GNU GPL version 2 or later
-# 
-# AS ALLWAYS, KNOW WHAT YOU ARE DOING.
-#======================================================================================
-#
-# echo "# ArchXfce4" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/ArchXFCE4.git
-# git push -u origin master
-#
-# git config --global user.name x
-# git config --global user.email x
-# sudo git config --system core.editor nano
-# git config --global credential.helper cache
-# git config --global credential.helper 'cache --timeout=3600'
-#
-#
-# Force git to overwrite local files on pull - no merge
-# 
-# git fetch all
-# git reset --hard orgin/master
-
-
-#======================================================================================
-#   GIT PUSH
-#======================================================================================
-
+##################################################################################################################
+# Remember : git push origin master --force
+# Remember : git reset --hard <old-commit-id>
+# git push -f <remote-name> <branch-name>
 # Below command will backup everything inside the project folder
 git add --all .
 
+# Give a comment to the commit if you want
 echo "####################################"
 echo "Write your commit comment!"
 echo "####################################"
@@ -66,9 +24,14 @@ echo "####################################"
 read input
 
 # Committing to the local repository with a message containing the time details and commit text
-curtime=$(date)
-git commit -m "comment: $input"
+curtime=$(date +"%T %d-%m-%Y")
+git commit -m "Comment : $input on $curtime"
 
-# Push the local snapshot to a remote destination
+# Push the local files to github
+
 git push -u origin master
 
+
+echo "################################################################"
+echo "###################    Git Push Done      ######################"
+echo "################################################################"
