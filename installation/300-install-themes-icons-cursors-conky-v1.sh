@@ -14,7 +14,7 @@ set -e
 #making the tmpfs bigger with 1GB to ensure completion of scripts
 #https://wiki.archlinux.org/index.php/Tmpfs
 #this line was only necessary for vmware installations
-#sudo mount -o remount,size=4G,noatime /tmp
+sudo mount -o remount,size=4G,noatime /tmp
 
 
 # Conky Aureola
