@@ -1,6 +1,6 @@
 # ArchBudgie
 
-A collection of scripts to easily install all software, icons, themes, cursors, ... automatically.
+A collection of scripts for a fast an easy installation of all software, icons, themes, cursors, ... automatically.
 
 
 I will be using the following elements : 
