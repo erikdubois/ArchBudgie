@@ -14,7 +14,8 @@ set -e
 echo " Xserver setup"
 
 sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm --noconfirm --needed
-sudo pacman -S xf86-video-vmware --noconfirm --needed
+echo "choose virtualbox-guest-modules-arch"
+sudo pacman -S virtualbox-guest-utils 
 
 echo "################################################################"
 echo "###################    xorg installed     ######################"

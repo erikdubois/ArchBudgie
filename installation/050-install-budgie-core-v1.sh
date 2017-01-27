@@ -189,7 +189,11 @@ fi
 echo "Display manager being installed"
 
 sudo systemctl enable gdm.service
-sudo systemctl start gdm.service
+
+echo "Rebooting -select the proper desktop environment"
+echo "with the gauge symbol."
+
+sleep 3
 
 
 
