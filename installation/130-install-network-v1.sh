@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,18 +11,16 @@
 #
 ##################################################################################################################
 
-sudo pacman -S --noconfirm --needed pulseaudio-alsa pulseaudio-bluetooth bluez bluez-libs bluez-utils bluez-firmware blueberry pavucontrol
+#Network
 
-sudo systemctl enable bluetooth.service
-sudo systemctl start bluetooth.service
-sudo systemctl daemon-reload
+sudo pacman -S networkmanager --noconfirm --needed
+sudo pacman -S network-manager-applet --noconfirm --needed
+sudo systemctl enable NetworkManager.service
+sudo systemctl start NetworkManager.service
 
-
-echo "reboot your system then ..."
-echo "set with bluetooth icon in bottom right corner"
-echo "change with pavucontrol to have a2dp sink"
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "#########   network management software installed  #############"
 echo "################################################################"
+

@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 #======================================================================================
 #                                
 # Author  : Erik Dubois at http://www.erikdubois.be
@@ -9,20 +9,14 @@
 #======================================================================================
 
 # if you are in a base system with no xserver and desktop...
-# this will install xserver, gdm and budgie
+# this will install xserver
 
 echo " Xserver setup"
 
 sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm --noconfirm --needed
 sudo pacman -S xf86-video-nouveau --noconfirm --needed
 
-echo "Desktop Environment"
+echo "################################################################"
+echo "###################    xorg installed     ######################"
+echo "################################################################"
 
-sudo pacman -S budgie-desktop gnome --noconfirm --needed
-#sudo pacman -S gnome-extra --noconfirm --needed
-
-echo "Display manager"
-
-sudo pacman -S gdm --noconfirm --needed
-sudo systemctl enable gdm.service
-sudo systemctl start gdm.service

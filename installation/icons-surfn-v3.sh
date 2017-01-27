@@ -11,18 +11,21 @@
 #
 ##################################################################################################################
 
-sudo pacman -S --noconfirm --needed pulseaudio-alsa pulseaudio-bluetooth bluez bluez-libs bluez-utils bluez-firmware blueberry pavucontrol
+# cleaning tmp
+[ -d /tmp/Surfn ] && rm -rf /tmp/Surfn
 
-sudo systemctl enable bluetooth.service
-sudo systemctl start bluetooth.service
-sudo systemctl daemon-reload
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
+git clone https://github.com/erikdubois/Surfn /tmp/Surfn
+find /tmp/Surfn -maxdepth 1 -type f -exec rm -rf '{}' \;
+cp -rf /tmp/Surfn/* ~/.icons/
 
-echo "reboot your system then ..."
-echo "set with bluetooth icon in bottom right corner"
-echo "change with pavucontrol to have a2dp sink"
+# cleaning tmp
+[ -d /tmp/Surfn ] && rm -rf /tmp/Surfn
+
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "###################    icons surfn done   ######################"
 echo "################################################################"

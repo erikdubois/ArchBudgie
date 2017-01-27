@@ -12,28 +12,23 @@
 ##################################################################################################################
 
 
-sudo pacman -S --noconfirm --needed samba
-sudo cp  /etc/samba/smb.conf.default /etc/samba/smb.conf
-sudo systemctl enable smbd.service
-sudo systemctl start smbd.service
-sudo systemctl enable nmbd.service
-sudo systemctl start nmbd.service
-sudo smbpasswd -a erik
+# cleaning tmp
+[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
-#access samba share windows
-sudo pacman -S --noconfirm --needed gvfs-smb
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
 
+wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
+mkdir /tmp/sardi
+tar -zxf /tmp/sardi.tar.gz -C /tmp/sardi
+rm /tmp/sardi.tar.gz
+cp -rf /tmp/sardi/* ~/.icons/
 
-# sudo systemctl restart ... if you run into trouble
-# testparm will check the conf file for errors
+# cleaning tmp
+[ -d /tmp/sardi ] && rm -rf /tmp/sardi
 
-# red hat samba sharing config 
-packer -S --noconfirm --noedit system-config-samba
-
-echo "Run system-config-samba to set up shares"
 
 
 echo "################################################################"
-echo "#########   samba  software installed           ################"
+echo "###################    icons sardi done   ######################"
 echo "################################################################"
-

@@ -11,9 +11,10 @@
 #
 ##################################################################################################################
 
+sudo pacman -R gnome-terminal --noconfirm
 
-package="surfn-icons-git"
-
+package="gnome-terminal-transparency"
+command="gnome-terminal"
 
 #----------------------------------------------------------------------------------
 

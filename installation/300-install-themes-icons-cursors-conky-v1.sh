@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -10,52 +10,40 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+#tmpfs is getting to full at the end 
+#making the tmpfs bigger with 1GB to ensure completion of scripts
+#https://wiki.archlinux.org/index.php/Tmpfs
+#this line was only necessary for vmware installations
+#sudo mount -o remount,size=4G,noatime /tmp
 
-# Cursor theme
-
-sh install-breeze-cursor-theme-v1.sh
-
-###############################################################################################
 
 # Conky Aureola
 
-sh conky-aureola-v3.sh
+sh conky-aureola-v2.sh
 
 ###############################################################################################
 
 # Sardi-extra icons
 
-sh icons-sardi-extra-v2.sh
+sh icons-sardi-extra-v3.sh
 
 ###############################################################################################
 
 # Sardi icons
 
-sh icons-sardi-v2.sh
+sh icons-sardi-v3.sh
 
 ###############################################################################################
 
 # Surfn icons
 
-sh icons-surfn-v2.sh
+sh icons-surfn-v3.sh
 
 ###############################################################################################
-
-# Arc Flatabulous theme
-
-sh install-gtk-arc-flatabulous-theme-v1.sh
-
-#############################################################################################
 
 # Arc theme
 
 sh install-gtk-arc-theme-git-v1.sh
-
-#############################################################################################
-
-# Numix icons
-
-sh install-numix-circle-icon-theme-git-v1.sh
 
 #############################################################################################
 
@@ -65,22 +53,11 @@ sh plank-themes-v2.sh
 
 ###############################################################################################
 
-# Carlito font
+# Cursor theme
 
-sh install-ttf-carlito-v1.sh
-
-###############################################################################################
-
-# Mac lucida font
-
-sh install-ttf-mac-fonts-v1.sh
+sh install-breeze-cursor-theme-v1.sh
 
 
-#Fonts
-
-sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
-sudo pacman -S ttf-droid --noconfirm --noconfirm --needed
-sudo pacman -S ttf-inconsolata --noconfirm --needed
 
 
 echo "################################################################"
