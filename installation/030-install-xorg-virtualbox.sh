@@ -14,7 +14,13 @@ set -e
 echo " Xserver setup"
 
 sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm --noconfirm --needed
-echo "choose virtualbox-guest-modules-arch"
+echo
+echo "################################################################"
+echo "choose virtualbox-guest-modules-arch in the next installation"
+echo "################################################################"
+
+sleep 2
+
 sudo pacman -S virtualbox-guest-utils 
 
 echo "################################################################"
