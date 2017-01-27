@@ -34,7 +34,7 @@ Installation of Arch Linux and consequently Budgie is documented on https://erik
 
 ##1. Arch installation
 
-Archlinux installation can be found in this article
+Archlinux installation can be found in this article. It will be shown in VirtualBox in order to be able to make a tutorial. Remember to choose the proper graphical driver and not the virtual box driver when installing on a ssd or harddisk.
 
 http://erikdubois.be/install-arch-linux-virtualbox-linux-mint-18-1/
 
