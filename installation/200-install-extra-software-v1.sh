@@ -31,7 +31,7 @@ set -e
 
 # Dropbox
 
-sh install-dropbox-v1.sh
+#sh install-dropbox-v1.sh
 
 ###############################################################################################
 
@@ -43,7 +43,7 @@ sh install-dropbox-v1.sh
 
 # Insysc
 
-sh install-insync-v1.sh
+#sh install-insync-v1.sh
 
 ###############################################################################################
 
