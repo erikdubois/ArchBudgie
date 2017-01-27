@@ -11,6 +11,9 @@
 #
 ##################################################################################################################
 
+echo "################################################################"
+echo "#########   distro specific software installed  ################"
+echo "################################################################"
 
 #Fonts
 
@@ -19,11 +22,9 @@
 ## sudo pacman -S ttf-inconsolata --noconfirm --needed        conflicts with ttf-google-fonts
 sudo pacman -S noto-fonts --noconfirm --needed
 
+#file manager
 
 
-echo "################################################################"
-echo "#########   distro specific software installed  ################"
-echo "################################################################"
 
 echo "You can install samba - folder sharing over network in next script"
 echo "You can copy my personal settings to your system or "
