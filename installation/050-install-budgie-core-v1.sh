@@ -187,7 +187,7 @@ fi
 
 
 echo "Display manager being installed"
-sudo pacman -S gdm --noconfirm --needed
+
 sudo systemctl enable gdm.service
 sudo systemctl start gdm.service
 
