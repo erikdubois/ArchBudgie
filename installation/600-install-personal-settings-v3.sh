@@ -67,12 +67,6 @@ echo "################################################################"
 echo "#########       personal settings installed     ################"
 echo "################################################################"
 
-echo "You can reboot and start computing"
+echo "Start firefox and then run script 700."
 echo
-echo "You need to login into the correct desktop environment"
-echo "At the login screen click on the small icon (gauge) to select budgie"
-echo
-echo "Do not run script 700 yet. You need to start firefox before you do."
-echo
-echo "Type in the terminal the following code"
-echo "sudo reboot"
+echo "Do not run script 700 before starting firefox. You need to start firefox before you do."

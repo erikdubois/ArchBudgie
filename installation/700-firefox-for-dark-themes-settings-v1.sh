@@ -19,10 +19,13 @@ echo "Firefox must have started once. The directory will not exist otherwise."
 
 cp -r settings/firefox/chrome/ ~/.mozilla/firefox/*.default
 
-echo "Reboot firefox to see the effect"
+echo "Restart firefox to see the effect"
 
 
 echo "################################################################"
 echo "#########       firefox  settings installed     ################"
 echo "################################################################"
 
+echo "################################################################"
+echo "######  Budgie installation is finished. Enjoy  ################"
+echo "################################################################"
