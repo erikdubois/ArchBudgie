@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -13,16 +13,22 @@ set -e
 
 
 
-echo "Making sure firefox looks great in dark themes"
-echo "You should run this script after you rebooted and are in i3."
-echo "Firefox must have started once. The directory will not exist otherwise."
+#https://github.com/andreisergiu98/arc-flatabulous-theme
 
-cp -r settings/firefox/chrome/ ~/.mozilla/firefox/*.default
+rm -rf /tmp/arc-flatabulous-theme
 
-echo "Restart firefox to see the effect"
+#sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+sudo eopkg it -y autoconf automake pkg-config libgtk-3-devel m4 make
 
+git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
+cd /tmp/arc-flatabulous-theme
+./autogen.sh --prefix=/usr
+sudo make install
+#sudo make uninstall
+
+# cleanup
+rm -rf /tmp/arc-flatabulous-theme
 
 echo "################################################################"
-echo "#########       firefox  settings installed     ################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-

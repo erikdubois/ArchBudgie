@@ -1,4 +1,5 @@
 #!/bin/bash
+#never use the next line in this script or pasystray will not be installed
 #set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -24,6 +25,7 @@ sudo pacman -S noto-fonts --noconfirm --needed
 
 #file manager
 
+#sudo pacman -S nemo --noconfirm --needed
 
 
 echo "You can install samba - folder sharing over network in next script"
