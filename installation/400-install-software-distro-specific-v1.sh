@@ -1,5 +1,4 @@
 #!/bin/bash
-#never use the next line in this script or pasystray will not be installed
 #set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers

@@ -94,11 +94,3 @@ echo "Run system-config-samba to set up shares"
 echo "################################################################"
 echo "#########   samba  software installed           ################"
 echo "################################################################"
-
-echo "You can install my personal settings to your system or "
-
-echo "You can reboot and start computing"
-echo "You need to login into the correct desktop environment"
-echo "At the login screen click on the small icon (gauge) to select budgie"
-echo "Type in the terminal the following code to reboot"
-echo "sudo reboot"
