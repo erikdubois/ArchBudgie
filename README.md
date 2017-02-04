@@ -22,7 +22,6 @@ More info can be found on http://erikdubois.be
 
 ![Screenshots](http://i.imgur.com/9wIQ90c.jpg)
 
-
 ![Screenshots](http://i.imgur.com/pSsIB5T.jpg)
 
 
