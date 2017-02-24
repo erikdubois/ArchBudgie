@@ -32,3 +32,4 @@ sudo pacman -S noto-fonts --noconfirm --needed
 echo "################################################################"
 echo "#########   distro specific software installed  ################"
 echo "################################################################"
+

@@ -18,7 +18,7 @@
 rm -rf /tmp/arc-flatabulous-theme
 
 #sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
-sudo eopkg it -y autoconf automake pkg-config libgtk-3-devel m4 make
+sudo pacman -S autoconf automake pkg-config m4 make --noconfirm --needed
 
 git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
 cd /tmp/arc-flatabulous-theme

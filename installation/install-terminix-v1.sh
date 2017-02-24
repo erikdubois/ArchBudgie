@@ -11,11 +11,14 @@
 #
 ##################################################################################################################
 
-# troubles with gstreamer 02/2017
-# packer gstreamer0.10-base
+# support for nemo
+sudo pacman -S nemo-python --noconfirm --needed
+# support for nautilus
+# sudo pacman -S python2-nautilus --noconfirm --needed
 
-package="radiotray"
-command="radiotray"
+
+package="terminix"
+command="terminix"
 
 #----------------------------------------------------------------------------------
 

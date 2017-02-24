@@ -17,14 +17,14 @@ echo "################################################################"
 
 
 
-#cp settings/.bashrc ~/
-#cp settings/.gtkrc-2.0 ~/
-#cp settings/.xinitrc ~/
-#cp settings/.zlogin ~/
-#cp settings/.zshrc ~/
-#cp settings/bookmarks ~/.config/gtk-3.0/
-#cp settings/settings.ini ~/.config/gtk-3.0/
-#cp settings/sublimetext/* ~/.config/sublime-text-3/Packages/User/
+#cp settings/root/.bashrc ~/
+#cp settings/root/.gtkrc-2.0 ~/
+#cp settings/root/.xinitrc ~/
+#cp settings/root/.zlogin ~/
+#cp settings/root/.zshrc ~/
+#cp settings/root/bookmarks ~/.config/gtk-3.0/
+#cp settings/root/settings.ini ~/.config/gtk-3.0/
+
 
 
 
